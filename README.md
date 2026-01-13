@@ -48,3 +48,8 @@ https://joel-cs98-hack-a-thing-1.netlify.app/
    ```bash
    love .
    ```
+
+## Resources / Acknowledgements
+
+- Love2D documentation (main wiki): https://love2d.org/wiki/love
+- Love2D physics docs (Box2D): https://love2d.org/wiki/love.physics
