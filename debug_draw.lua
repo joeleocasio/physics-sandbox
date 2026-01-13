@@ -3,8 +3,8 @@ local Mats = require("materials")
 local D = {
   enabled = true,   -- DEFAULT: debug mode
   showHelp = true,
-  padding = 10,
-  lineH = 18,
+  padding = 8,
+  lineH = 16,
 }
 
 function D.toggle()
@@ -52,11 +52,11 @@ function D.draw(World)
 
   -- measure panel height
   local panelH = D.padding * 2 + (#lines * D.lineH)
-  local panelW = math.min(420, w - 20)
+  local panelW = math.min(200, w - 20)
 
   -- panel background
   love.graphics.push("all")
-  love.graphics.setColor(0, 0, 0, 0.65)
+  love.graphics.setColor(0, 0, 0, 0.45)
   love.graphics.rectangle("fill", 10, 10, panelW, panelH, 8, 8)
 
   -- text
