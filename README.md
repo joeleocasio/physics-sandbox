@@ -31,3 +31,20 @@ The goal of this project is to hack a thing to explore physics systems (bodies/f
 **Debug**
 - **F1**: Toggle debug overlay
 - **H**: Toggle debug help section (when debug is on)
+
+## Play It (No Install)
+
+You can run the project in the browser here:
+https://joel-cs98-hack-a-thing-1.netlify.app/
+
+## Run Locally (Love2D)
+
+### Requirements
+- Install **Love2D**: https://love2d.org/
+
+### Run
+1. Clone this repository.
+2. Open a terminal in the project folder and run:
+   ```bash
+   love .
+   ```
